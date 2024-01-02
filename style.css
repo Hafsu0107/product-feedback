@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(230, 235, 240);
+}
+.container {
+  display: flex;
+  margin: 1%;
+}
+/* header */
+.header-img {
+  border-radius: 5px;
+}
+.main-heading {
+  color: #fff;
+  position: absolute;
+  top: 13%;
+  margin-left: 1%;
+}
+.sidebar {
+  background-color: #fff;
+  width: 91%;
+  padding: 16px;
+  border-radius: 9px;
+  margin-top: 14px;
+}
+/* btns */
+.btns {
+  padding: 9%;
+}
+.btns .one {
+  color: #fff;
+  width: 35%;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: blue;
+  margin-left: -17%;
+}
+.btns .two {
+  background-color: rgb(223, 230, 236);
+  color: rgb(64, 64, 222);
+  width: 28%;
+  padding: 5px;
+  border-radius: 11px;
+  border: none;
+}
+.btns .three {
+  background-color: rgb(223, 230, 236);
+  color: rgb(64, 64, 222);
+  width: 28%;
+  padding: 5px;
+  border-radius: 11px;
+  border: none;
+}
+.btns .four {
+  background-color: rgb(223, 230, 236);
+  color: rgb(64, 64, 222);
+  width: 72%;
+  padding: 9px;
+  border-radius: 11px;
+  border: none;
+  margin-left: -33px;
+  margin-top: 12px;
+}
+.btns .five {
+  background-color: rgb(223, 230, 236);
+  color: rgb(64, 64, 222);
+  width: 28%;
+  padding: 5px;
+  border-radius: 11px;
+  border: none;
+  margin-left: 15px;
+}
+.btns .six {
+  background-color: rgb(223, 230, 236);
+  color: rgb(64, 64, 222);
+  width: 47%;
+  padding: 7px;
+  border-radius: 11px;
+  border: none;
+  margin-left: -29px;
+  margin-top: 11px;
+}
+/* roadmap */
+.roadmap {
+  background-color: #fff;
+  width: 91%;
+  padding: 16px;
+  border-radius: 9px;
+  margin-top: 14px;
+}
+.view {
+  margin-left: 83%;
+  margin-top: -9%;
+}
+ul {
+  margin-top: 5%;
+  color: rgb(122, 124, 126);
+}
+li span.one {
+  margin-left: 61%;
+  color: black;
+}
+li span.two {
+  margin-left: 51%;
+  color: black;
+}
+li span.three {
+  margin-left: 71%;
+  color: black;
+}
+.nav-bar {
+  display: flex;
+  background-color: rgb(49, 49, 95);
+  width: 136%;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.suggestions {
+  margin-left: 32px;
+  padding: 4px;
+  display: flex;
+}
+.suggestions p {
+  margin-left: 7px;
+}
+.btn {
+  margin-left: 26%;
+}
+.suggestions .icon-arrow-down {
+  color: #fff;
+}
+.btn button {
+  background-color: purple;
+  color: #fff;
+  width: 115%;
+  padding: 8px;
+  border-radius: 7px;
+  border: none;
+  margin-left: -11%;
+}
