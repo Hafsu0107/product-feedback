@@ -5,6 +5,7 @@
 }
 body {
   background-color: rgb(230, 235, 240);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .container {
   display: flex;
@@ -22,7 +23,7 @@ body {
 }
 .sidebar {
   background-color: #fff;
-  width: 91%;
+  width: 101%;
   padding: 16px;
   border-radius: 9px;
   margin-top: 14px;
@@ -47,6 +48,7 @@ body {
   padding: 5px;
   border-radius: 11px;
   border: none;
+  margin-left: 3%;
 }
 .btns .three {
   background-color: rgb(223, 230, 236);
@@ -88,7 +90,7 @@ body {
 /* roadmap */
 .roadmap {
   background-color: #fff;
-  width: 91%;
+  width: 101%;
   padding: 16px;
   border-radius: 9px;
   margin-top: 14px;
@@ -102,21 +104,24 @@ ul {
   color: rgb(122, 124, 126);
 }
 li span.one {
-  margin-left: 61%;
+  margin-left: 64%;
   color: black;
 }
 li span.two {
-  margin-left: 51%;
+  margin-left: 55%;
   color: black;
 }
 li span.three {
-  margin-left: 71%;
+  margin-left: 72%;
   color: black;
+}
+.two {
+  margin-left: 3%;
 }
 .nav-bar {
   display: flex;
   background-color: rgb(49, 49, 95);
-  width: 136%;
+  width: 88%;
   padding: 10px;
   border-radius: 5px;
   color: #fff;
@@ -144,4 +149,132 @@ li span.three {
   border: none;
   margin-left: -11%;
   font-weight: bold;
+}
+.solution {
+  background-color: #fff;
+  width: 88%;
+  border-radius: 9px;
+  display: flex;
+  margin-top: 3%;
+  height: 18%;
+}
+.bullet-list {
+  background-color: rgb(163, 156, 156);
+  width: 4%;
+  height: 38px;
+  margin-top: 2%;
+  border-radius: 7px;
+}
+.para {
+  margin-left: -28%;
+  margin-top: 4%;
+  padding: 5px;
+  line-height: 1;
+  color: rgb(122, 124, 126);
+}
+.para-four {
+  padding: 5px;
+  line-height: 1;
+  color: rgb(122, 124, 126);
+  margin-left: -48%;
+  margin-top: 4%;
+}
+.para-three {
+  padding: 5px;
+  line-height: 1;
+  color: rgb(122, 124, 126);
+  margin-left: -38%;
+  margin-top: 4%;
+}
+.option {
+  background-color: #fff;
+  width: 88%;
+  border-radius: 9px;
+  display: flex;
+  margin-top: 3%;
+  height: 18%;
+}
+.others {
+  background-color: #fff;
+  width: 88%;
+  border-radius: 9px;
+  display: flex;
+  margin-top: 3%;
+  height: 18%;
+}
+.hub {
+  background-color: #fff;
+  width: 88%;
+  border-radius: 9px;
+  display: flex;
+  margin-top: 3%;
+  height: 18%;
+}
+.feedback {
+  background-color: #fff;
+  width: 88%;
+  border-radius: 9px;
+  display: flex;
+  margin-top: 3%;
+  height: 18%;
+}
+h3 {
+  margin-left: 2%;
+  margin-top: 3px;
+}
+button.one {
+  background-color: rgb(223, 230, 236);
+  color: rgb(64, 64, 222);
+  width: 33%;
+  padding: 9px;
+  border-radius: 11px;
+  border: none;
+  margin-left: -19px;
+  margin-top: 12px;
+}
+
+button.four {
+  background-color: rgb(223, 230, 236);
+  color: rgb(64, 64, 222);
+  width: 33%;
+  padding: 9px;
+  border-radius: 11px;
+  border: none;
+  margin-left: -9px;
+  margin-top: 12px;
+}
+button.five {
+  background-color: rgb(223, 230, 236);
+  color: rgb(64, 64, 222);
+  width: 22%;
+  padding: 9px;
+  border-radius: 11px;
+  border: none;
+  margin-left: -12px;
+  margin-top: 12px;
+}
+button.three {
+  background-color: rgb(223, 230, 236);
+  color: rgb(64, 64, 222);
+  width: 22%;
+  padding: 9px;
+  border-radius: 11px;
+  border: none;
+  margin-left: 5px;
+  margin-top: 12px;
+}
+button.two {
+  background-color: rgb(223, 230, 236);
+  color: rgb(64, 64, 222);
+  width: 16%;
+  padding: 9px;
+  border-radius: 11px;
+  border: none;
+  margin-left: -16px;
+  margin-top: 12px;
+}
+.comments {
+  position: absolute;
+  left: 74%;
+  margin-top: 3%;
 }
