@@ -23,7 +23,7 @@ body {
 }
 .sidebar {
   background-color: #fff;
-  width: 101%;
+  width: 91%;
   padding: 16px;
   border-radius: 9px;
   margin-top: 14px;
@@ -90,7 +90,7 @@ body {
 /* roadmap */
 .roadmap {
   background-color: #fff;
-  width: 101%;
+  width: 91%;
   padding: 16px;
   border-radius: 9px;
   margin-top: 14px;
@@ -112,7 +112,7 @@ li span.two {
   color: black;
 }
 li span.three {
-  margin-left: 72%;
+  margin-left: 76%;
   color: black;
 }
 .two {
